@@ -1,0 +1,29 @@
+{
+  "name": "react-ssr-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "client:build": "webpack --config webpack.config.client.js",
+    "client:dev": "webpack serve --open --config webpack.config.client.js",
+    "server:dev": "yarn run client:build && yarn run server:build && node src/server/index.js",
+    "server:build": "webpack --config webpack.config.server.js"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.12.13",
+    "@babel/core": "^7.12.13",
+    "@babel/preset-env": "^7.12.13",
+    "@babel/preset-react": "^7.12.13",
+    "babel-loader": "^8.2.2",
+    "express": "^4.17.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-hot-loader": "^4.13.0",
+    "webpack": "^5.21.2",
+    "webpack-cli": "^4.5.0"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.0.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
