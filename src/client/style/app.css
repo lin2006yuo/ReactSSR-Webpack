@@ -1,0 +1,20 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+h1,h2 {
+  margin: 0;
+}
+
+.__app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.__app .__app_content {
+  flex: 1;
+}
+
+.__app_title {
+  background-color: whitesmoke;
+}

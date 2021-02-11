@@ -1,0 +1,11 @@
+.__tabbar {
+  display: flex;
+  justify-content:space-between
+}
+.__tabbar a {
+  flex: 1;
+  text-decoration: none;
+  background: pink;
+  padding: 10px;
+  border-radius: 5px;
+}
