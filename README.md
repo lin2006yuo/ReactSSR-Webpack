@@ -1,5 +1,13 @@
 # 重零开始的React SSR + Webpack服务端渲染
 
+## development
+```bash
+yarn
+```
+```bash
+yarn run server:dev
+```
+
 ### 初始化
 ```bash
 yar init -y
